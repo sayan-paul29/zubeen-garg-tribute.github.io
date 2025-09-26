@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background:linear-gradient(135deg, #e9e4e4, #161515, #5f0e0e);
+            background-size: 400% 400%;
+            animation: gradientShift 10s ease infinite;
+            color: red;
+            display: flex;
+            flex-direction:column;
+            justify-content:space-between; 
+            align-items: center;
+       
+            
+        }
+        @keyframes gradientShift {
+    0%   { background-position: 0% 100%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 100%; }
+        }
+        h1 {
+            
+            color:white;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+        h2 {
+        font-size: 5vw;
+            color: red !important;
+            text-shadow: 0 0 10px red, 0 0 20px crimson, 0 0 30px pink;
+            animation: glow 2s infinite alternate, fadeIn 2s forwards;
+            animation-delay: 1s;
+            opacity: 0;
+        }
+            @keyframes glow {
+            from { text-shadow: 0 0 5px red; }
+            to { text-shadow: 0 0 25px crimson, 0 0 40px pink; }
+        }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+        img {
+            width: 300px;       
+            height: auto;       
+            border-radius: 10px;
+            margin: 20px 0; 
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            animation-delay: 2s    
+        }
+        h3 {
+            color: aqua;
+            font-size: 3vw;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            animation-delay: 4s;
+        
+         }
+         audio {
+            margin-top:20px;
+            filter: drop-shadow(0 0 10px red);
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            animation-delay: 3s;
+        }
+        footer p {
+            color: white;
+            font-size: 4vw;
+            animation: fadeIn 2s forwards;
+            animation-delay: 5s;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    
+        <h1>we love you</h1>
+        <h2>JOI ZUBEEN DA</h2>
+        
+    
+    <img src="2716492.jpg" alt="sad">
+    <audio controls >
+      <source src="songz.mp3" type="audio/mpeg">
+      
+    </audio>
+
+    
+    <h3>
+       "..ZUBEEN GARG, a soul-stirring legend, fills hearts with his music, love, and strength. His voice, spirit, and humility inspire millions, leaving an unforgettable mark of magic and warmth forever..❤️❤️❤️.."
+    </h3>
+     <footer>
+        <p>💖 Forever in our hearts — Zubeen Garg</p>
+    </footer>
+
+</body>
+</html>
